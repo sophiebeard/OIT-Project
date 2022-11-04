@@ -60,7 +60,7 @@ As the PRESENTATIONAL LAYER, I want to be able to request data from the BUSINESS
 
 A ReactJS application was set up using a the node package extractor called create-react-app. Once the installation of files was completed, the application was launched in the browser to see it running.The browser opened at http://localhost:3000/ with the following screen: 
 
-![React App](./starter/build/../src/images/react-app.png)
+![React App](./starter/build/../src/images/react-app.jpg)
 
 ### Build and serve and application. 
 
@@ -73,3 +73,9 @@ First I modified the App.js file to return to the basic code. I created a Photo1
 ### Display each picture with a username. 
 
 A username component was created. This was then imported in the the App.js file. When the application is run, it displays Image1, with the username. 
+
+### Display each picture with a caption. 
+
+A caption component was created. This was then imported in the the App.js file. When the application is run, it displays Image1, with the username, and the caption. So far, all of the elements have been hard coded. The website looks as shown: 
+
+![React App](./starter/build/../src/images/website.jpg)
