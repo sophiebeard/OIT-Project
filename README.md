@@ -29,4 +29,4 @@ As the PRESENTATIONAL LAYER, I want to be able to request data from the BUSINESS
 
 A ReactJS application was set up using a the node package extractor called create-react-app. Once the installation of files was completed, the application was launched in the browser to see it running.The browser opened at http://localhost:3000/ with the following screen: 
 
-![React App](./Pictures/image.png)
+![React App](images/react-app.png)
