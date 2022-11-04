@@ -18,7 +18,8 @@ As the PRESENTATIONAL LAYER, I want to be able to request data from the BUSINESS
 
 1. As the PRESENTATIONAL LAYER, I want to be able to display pictures in a 'feed' UI, so that the user is able to see all the pictures.
 
-- [ ] Get a ReactJS application up and running. 
+- [X] Get a ReactJS application up and running.
+- [X] Build and Serve and Application. 
 
 2. As the PRESENTATIONAL LAYER, I want to be able to display each picture with a user name, so that I can see who has posted the picture.
 3. As the PRESENTATIONAL LAYER, I want to be able to display each picture with a caption, so that I can read what each picture is about.
@@ -30,3 +31,7 @@ As the PRESENTATIONAL LAYER, I want to be able to request data from the BUSINESS
 A ReactJS application was set up using a the node package extractor called create-react-app. Once the installation of files was completed, the application was launched in the browser to see it running.The browser opened at http://localhost:3000/ with the following screen: 
 
 ![React App](images/react-app.png)
+
+### Build and serve and application. 
+
+I produced a production-ready set of code for the skeleton application. This will make bundles of the HTML, CSS and JavaScript needed to efficiently deploy the application. 
