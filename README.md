@@ -22,3 +22,11 @@ As the PRESENTATIONAL LAYER, I want to be able to request data from the BUSINESS
 
 2. As the PRESENTATIONAL LAYER, I want to be able to display each picture with a user name, so that I can see who has posted the picture.
 3. As the PRESENTATIONAL LAYER, I want to be able to display each picture with a caption, so that I can read what each picture is about.
+
+## Step-By-Step
+
+### Get a ReactJS application up and running. 
+
+A ReactJS application was set up using a the node package extractor called create-react-app. Once the installation of files was completed, the application was launched in the browser to see it running.The browser opened at http://localhost:3000/ with the following screen: 
+
+![React App](./Pictures/image.png)
