@@ -45,9 +45,13 @@ As the PRESENTATIONAL LAYER, I want to be able to request data from the BUSINESS
 
 - [X] Get a ReactJS application up and running.
 - [X] Build and Serve and Application. 
-- [ ] Display and image on the webpage.
+- [X] Display and image on the webpage.
 
 2. As the PRESENTATIONAL LAYER, I want to be able to display each picture with a user name, so that I can see who has posted the picture.
+
+- [X] Each picture is displayed with a username. 
+
+
 3. As the PRESENTATIONAL LAYER, I want to be able to display each picture with a caption, so that I can read what each picture is about.
 
 ## Step-By-Step
@@ -65,3 +69,7 @@ I produced a production-ready set of code for the skeleton application. This wil
 ### Display an Image on the webpage. 
 
 First I modified the App.js file to return to the basic code. I created a Photo1 component and imported this into the App.js file. When the application is run it displays Image1. 
+
+### Display each picture with a username. 
+
+A username component was created. This was then imported in the the App.js file. When the application is run, it displays Image1, with the username. 
