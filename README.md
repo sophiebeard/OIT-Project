@@ -6,6 +6,31 @@ The aim of this project is to create an application that makes Instagram more ac
 
 I have chosen to use the ReactJS library to build and create the user interface. The pros of using this method are the fast user interface, reusable code, single page applications can be created, and only the parts of the library that are needed can be extracted. Some potential issues could be that this requires specialist knowledge to use it effectively, and I will be unable to perform 'business logic' actions within the application. 
 
+## Building an app with React. 
+
+- [X] Start with a mock. 
+- [X] Break the UI into a component hierarchy. 
+- [ ] Build a Static version in React.
+- [ ] Identify the minimal (but complete) representation of UI state. 
+- [ ] Identify where your state should live. 
+- [ ] Add inverse data flow. 
+
+### Start with a Mock
+
+My mock was developed using Webflow. It is a basic example of what I would like the application to look like. 
+
+![Webflow](./starter/build/../src/images/webflow.jpg)
+
+### The Component Hierarchy
+
+Each component in the mock is taken out and given a name to help identify components which should only do one thing. 
+
+- User Name
+- Instructions and tips on using the site. 
+- Image
+- Image name
+- Image caption
+
 ## User Story
 
 As a user, I want to be able to access an online application that allows me to view a simplified Instagram feed, so that I can use it more easily
@@ -20,6 +45,7 @@ As the PRESENTATIONAL LAYER, I want to be able to request data from the BUSINESS
 
 - [X] Get a ReactJS application up and running.
 - [X] Build and Serve and Application. 
+- [ ] Display and image on the webpage.
 
 2. As the PRESENTATIONAL LAYER, I want to be able to display each picture with a user name, so that I can see who has posted the picture.
 3. As the PRESENTATIONAL LAYER, I want to be able to display each picture with a caption, so that I can read what each picture is about.
@@ -30,8 +56,12 @@ As the PRESENTATIONAL LAYER, I want to be able to request data from the BUSINESS
 
 A ReactJS application was set up using a the node package extractor called create-react-app. Once the installation of files was completed, the application was launched in the browser to see it running.The browser opened at http://localhost:3000/ with the following screen: 
 
-![React App](images/react-app.png)
+![React App](./starter/build/../src/images/react-app.png)
 
 ### Build and serve and application. 
 
 I produced a production-ready set of code for the skeleton application. This will make bundles of the HTML, CSS and JavaScript needed to efficiently deploy the application. 
+
+### Display an Image on the webpage. 
+
+First I modified the App.js file to return to the basic code. I created a Photo1 component and imported this into the App.js file. When the application is run it displays Image1. 
