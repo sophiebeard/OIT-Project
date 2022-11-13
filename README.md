@@ -79,3 +79,7 @@ A username component was created. This was then imported in the the App.js file.
 A caption component was created. This was then imported in the the App.js file. When the application is run, it displays Image1, with the username, and the caption. So far, all of the elements have been hard coded. The website looks as shown: 
 
 ![React App](./starter/build/../src/images/website.jpg)
+
+### Create a Skeleton Screen Display
+
+Next, I created a skeleton screen layout for my application. This was done so that if a user is waiting for the application to load, they will see the white boxes, instead of a blank screen. For this part of the project, I followed a [tutorial](https://www.youtube.com/watch?v=cg_tmJBisp8) by The Net Ninja, which is linked. The first stage was to set up the set-up. This was done by creating the components and adding some CSS styling. The next stage was to fetch data. I used [JSONPlaceholder](https://jsonplaceholder.typicode.com/) to replicate fetching real data.  Then, I started planning the skeleton templates. I created three templates - title, text, thumbnail, and avatar which are different grey shapes for different component types. The final stage was to include a loading 'shimmer' onto the skeleton screens. This was done using CSS animations.

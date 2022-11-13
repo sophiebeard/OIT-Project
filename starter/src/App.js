@@ -1,20 +1,14 @@
-import './App.css';
-import Caption from './Components/Caption';
-import Image from './Components/Photo1';
-import Username from './Components/Username';
+import React from "react";
+import Posts from "./Components/Posts";
 
 function App() {
   return (
     <div className="App">
-      <Image />
-      <Username />
-      <Caption />
-      <Image />
-      <Username />
-      <Caption />
-      <Image />
-      <Username />
-      <Caption />
+      <header>
+        <h1>Simple Instagram</h1>
+      </header>
+      <div className="content"></div>
+      <Posts />
     </div>
   );
 }
