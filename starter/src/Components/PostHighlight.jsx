@@ -2,24 +2,27 @@ import PropTypes from 'prop-types';
 import Picture from './Picture';
 import ProfileName from './ProfileName';
 import Caption from './Caption';
-import { Link } from 'react-router-dom';
 
-const Posts = ({ picture, profileName, caption, id }) => {
+const PostHighlight = ({ picture, profileName, caption }) => {
     return (
-        <div className="posts">
-            <Link to={`/posts/${id}`} >
+        <div className="postHighlight" >
+            <div className="picture">
                 <Picture picture={picture} />
+            </div>
+            <div className="profileName">
                 <ProfileName profileName={profileName} />
+            </div>
+            <div className="caption">
                 <Caption caption={caption} />
-            </Link>
+            </div>
         </div>
     )
 }
 
-Posts.propTypes = {
+PostHighlight.propTypes = {
     picture: PropTypes.string.isRequired,
     profileName: PropTypes.string.isRequired,
     caption: PropTypes.string.isRequired
 }
 
-export default Posts;
+export default PostHighlight;
