@@ -83,3 +83,7 @@ A caption component was created. This was then imported in the the App.js file. 
 ### Create a Skeleton Screen Display
 
 Next, I created a skeleton screen layout for my application. This was done so that if a user is waiting for the application to load, they will see the white boxes, instead of a blank screen. For this part of the project, I followed a [tutorial](https://www.youtube.com/watch?v=cg_tmJBisp8) by The Net Ninja, which is linked. The first stage was to set up the set-up. This was done by creating the components and adding some CSS styling. The next stage was to fetch data. I used [JSONPlaceholder](https://jsonplaceholder.typicode.com/) to replicate fetching real data.  Then, I started planning the skeleton templates. I created three templates - title, text, thumbnail, and avatar which are different grey shapes for different component types. The final stage was to include a loading 'shimmer' onto the skeleton screens. This was done using CSS animations.
+The loading screen now appears as shown: 
+![image](https://user-images.githubusercontent.com/88347024/201534223-87c9fbcf-67c6-4b99-a605-f052ba5eedb6.png)
+The loaded screen now appears as shown (with placehodlers for the image, username and caption):
+![image](https://user-images.githubusercontent.com/88347024/201534237-ba419e97-7b0b-4e8f-a9fe-f196dd393046.png)
