@@ -13,5 +13,3 @@ function PostsPage({ posts }) {
 };
 
 export default PostsPage;
-
-// You will need to add the access keys when you get them! See example e.g. post.fields.id.content

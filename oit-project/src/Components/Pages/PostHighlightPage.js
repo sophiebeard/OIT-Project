@@ -17,4 +17,3 @@ function PostHighlightPage({ posts }) {
 
 export default PostHighlightPage;
 
-// You will need to add the access keys when you get them! See example e.g. post.fields.id.content

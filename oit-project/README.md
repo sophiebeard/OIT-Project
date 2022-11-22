@@ -112,4 +112,12 @@ npm start
 
 #### Hosting on Netlify
 
-The app is going to be hosted initially on Netlify. 
+The app is going to be hosted initially on Netlify. The repository was imported from GitHub and then deployed. 
+
+#### Create App
+
+I created my app in Facebook for Developers. The Instagram Basic API was generated. In the setting section, the website that I deployed from Netlify was added. 
+
+#### Obtaining an API key
+
+After obtaining an API key through the FB developer page, I tests the get request using postman. This showed that the caption, id, media_url and username keys were functioning correctly. The timestamp key for some reason wasn't working. So this was removed from the API Key for now. 

@@ -10,9 +10,9 @@ function App() {
 
   const fetchPosts = async () => {
     try {
-      const res = await axios.get(process.env.REACT_APP_API_KEY);
-      setPosts(res);  // you need to add the correct access data points depending on what is avaliable from api key.
-      console.log(res);
+      const res = await axios.get(process.env.REACT_APP_INS_TOKEN);
+      setPosts(res.data);
+      console.log(res.data);
     } catch (error) {
       console.error(error);
     }
