@@ -32,7 +32,7 @@ const Feeds = ({ token, ...props }) => {
     }, [props.limit]);
 
     return (
-        <div className="container">
+        <div className="picture">
             {feeds.map((feed) => (
                 <Feed key={feed.id} feed={feed} />
             ))}
