@@ -121,3 +121,6 @@ I created my app in Facebook for Developers. The Instagram Basic API was generat
 #### Obtaining an API key
 
 After obtaining an API key through the FB developer page, I tests the get request using postman. This showed that the caption, id, media_url and username keys were functioning correctly. The timestamp key for some reason wasn't working. So this was removed from the API Key for now. 
+
+#### Using the API Key
+The API key was successfully incorporated into the application, it currently shows the first 3 pictures from the test Instagram page. The next step is to also show the caption, and username from the test Instagram page. 

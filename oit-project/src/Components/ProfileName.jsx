@@ -1,15 +1,16 @@
-import PropTypes from 'prop-types';
+import React from 'react';
 
-const ProfileName = ({ profileName }) => {
+const ProfileName = (props) => {
+    const { id, caption, username, media_url, media_type } = props.feed
+    let name;
+
+    name = (<h1>{username}</h1>);
+
     return (
-        <div className="profileName">
-            <h2>{profileName}</h2>
+        <div className="profileName" id={id}>
+            {name}
         </div>
     );
 };
 
 export default ProfileName;
-
-ProfileName.propTypes = {
-    profileName: PropTypes.string.isRequired,
-};

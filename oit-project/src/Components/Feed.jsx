@@ -1,4 +1,6 @@
 import React from 'react'
+import Caption from './Caption';
+import ProfileName from './ProfileName';
 
 const Feed = (props) => {
     const { id, caption, username, media_url, media_type } = props.feed
@@ -40,9 +42,14 @@ const Feed = (props) => {
     }
 
     return (
-        <React.Fragment>
-            {post}
-        </React.Fragment>
+        <>
+            <>
+                {post}
+            </>
+            {/* <Caption /> */}
+            {/* <ProfileName /> */}
+        </>
+
     );
 }
 

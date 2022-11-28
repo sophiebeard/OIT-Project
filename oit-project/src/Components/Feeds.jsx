@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react'
 import axios from 'axios'
 import Feed from './Feed'
+import SkeletonPosts from '../Skeleton Components/SkeletonPosts.js';
 
 const Feeds = ({ token, ...props }) => {
     const [feeds, setFeedsData] = useState([]);
@@ -10,10 +11,11 @@ const Feeds = ({ token, ...props }) => {
     useEffect(() => {
         const abortController = new AbortController();
 
+
         async function fetchInstagramPost() {
             try {
                 axios
-                    .get(`https://graph.instagram.com/me/media?fields=caption,id,media_url,username,media_type&access_token=${tokenProp.current}`)
+                    .get(`https://graph.instagram.com/me/media?fields=caption,id,media_url,username,media_type&limit=${props.limit}&access_token=${tokenProp.current}`)
                     .then((resp) => {
                         setFeedsData(resp.data.data)
                     })
@@ -27,13 +29,15 @@ const Feeds = ({ token, ...props }) => {
         return () => {
             abortController.abort();
         };
-    }, []);
+    }, [props.limit]);
 
     return (
         <div className="container">
             {feeds.map((feed) => (
                 <Feed key={feed.id} feed={feed} />
             ))}
+
+            {!feeds && [1, 2, 3, 4, 5].map((n) => <SkeletonPosts key={n} theme="light" />)}
         </div>
     );
 }

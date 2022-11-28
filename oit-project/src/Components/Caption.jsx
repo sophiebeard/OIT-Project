@@ -1,15 +1,17 @@
-import PropTypes from 'prop-types';
+import React from 'react';
 
-const Caption = ({ caption }) => {
+const Caption = (props) => {
+    const { id, caption, username, media_url, media_type } = props.feed
+    let photoCaption;
+
+    photoCaption = (<h1>{caption}</h1>);
+
     return (
-        <div className="caption">
-            <p>{caption}</p>
+        <div className="caption" id={id}>
+            {photoCaption}
         </div>
     );
 };
 
 export default Caption;
 
-Caption.propTypes = {
-    caption: PropTypes.string.isRequired,
-};
