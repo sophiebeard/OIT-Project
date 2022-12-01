@@ -1,4 +1,5 @@
 import React from 'react'
+import './Feed.css';
 
 const Feed = (props) => {
 
@@ -34,17 +35,17 @@ const Feed = (props) => {
             post = (
                 <>
                     <img
-                        width='100%'
+                        className="image2"
                         height='auto'
                         id={id}
                         src={media_url}
                         alt={caption}
                     />
                     <div>
-                        <h2>{username}</h2>
+                        <h2 className="username">{username}</h2>
                     </div>
                     <div>
-                        <p>{caption}</p>
+                        <p className="caption2">{caption}</p>
                     </div>
                 </>
             );
@@ -53,17 +54,19 @@ const Feed = (props) => {
             post = (
                 <>
                     <img
-                        width='100%'
+                        className="image cursor-pointer"
                         height='auto'
                         id={id}
                         src={media_url}
                         alt={caption}
+                        data-bs-toggle="modal"
+                        data-bs-target="#imageExample"
                     />
                     <div>
-                        <h2>{username}</h2>
+                        <h2 className="username2">{username}</h2>
                     </div>
                     <div>
-                        <p>{caption}</p>
+                        <p className="caption">{caption}</p>
                     </div>
                 </>
             );

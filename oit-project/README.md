@@ -124,3 +124,7 @@ After obtaining an API key through the FB developer page, I tests the get reques
 
 #### Using the API Key
 The API key was successfully incorporated into the application, it currently shows the first 3 pictures from the test Instagram page. The next step is to also show the caption, and username from the test Instagram page. 
+
+#### Style
+
+The design elements in my project were done using [Bootstrap](https://getbootstrap.com/). 

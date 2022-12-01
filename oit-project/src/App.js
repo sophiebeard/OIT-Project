@@ -1,5 +1,6 @@
 import React from 'react'
 import Feeds from './Components/Feeds.jsx'
+import './App.css';
 
 const App = () => {
   return (
@@ -8,7 +9,7 @@ const App = () => {
         <h1>Out In Tech Instagram Project</h1>
       </header>
 
-      <Feeds token={process.env.REACT_APP_INS_TOKEN} limit={3} />
+      <Feeds className="body" token={process.env.REACT_APP_INS_TOKEN} limit={20} />
     </>
   );
 }
