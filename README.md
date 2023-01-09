@@ -19,7 +19,7 @@ I have chosen to use the ReactJS library to build and create the user interface.
 
 My mock was developed using Webflow. It is a basic example of what I would like the application to look like. 
 
-![Webflow](../OIT-Project/oit-project/src/images/webflow.jpg)
+![Webflow](./images/webflow.jpg)
 
 ### The Component Hierarchy
 
@@ -58,9 +58,7 @@ As the PRESENTATIONAL LAYER, I want to be able to request data from the BUSINESS
 
 ### Get a ReactJS application up and running. 
 
-A ReactJS application was set up using a the node package extractor called create-react-app. Once the installation of files was completed, the application was launched in the browser to see it running.The browser opened at http://localhost:3000/ with the following screen: 
-
-![React App](../oit-project/src/images/react-app.jpg)
+A ReactJS application was set up using a the node package extractor called create-react-app. Once the installation of files was completed, the application was launched in the browser to see it running.The browser opened at http://localhost:3000/.
 
 ### Build and serve and application. 
 
