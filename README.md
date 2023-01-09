@@ -19,7 +19,7 @@ I have chosen to use the ReactJS library to build and create the user interface.
 
 My mock was developed using Webflow. It is a basic example of what I would like the application to look like. 
 
-![Webflow](../oit-project/src/images/webflow.jpg)
+![Webflow](../OIT-Project/oit-project/src/images/webflow.jpg)
 
 ### The Component Hierarchy
 
@@ -78,7 +78,7 @@ A username component was created. This was then imported in the the App.js file.
 
 A caption component was created. This was then imported in the the App.js file. When the application is run, it displays Image1, with the username, and the caption. So far, all of the elements have been hard coded. The website looks as shown: 
 
-![React App](../oit-project/src/images/website.jpg)
+![React App](..//OIT-Project/oit-project/src/images/website.jpg)
 
 ### Create a Skeleton Screen Display
 
