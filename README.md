@@ -10,10 +10,10 @@ I have chosen to use the ReactJS library to build and create the user interface.
 
 - [X] Start with a mock. 
 - [X] Break the UI into a component hierarchy. 
-- [ ] Build a Static version in React.
-- [ ] Identify the minimal (but complete) representation of UI state. 
-- [ ] Identify where your state should live. 
-- [ ] Add inverse data flow. 
+- [X] Build a Static version in React.
+- [X] Identify the minimal (but complete) representation of UI state. 
+- [X] Identify where your state should live. 
+- [X] Add inverse data flow. 
 
 ### Start with a Mock
 
